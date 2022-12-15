@@ -87,6 +87,7 @@ public class PersonFormView extends Div {
         private ComboBox<String> countryCode = new ComboBox<>();
         private TextField number = new TextField();
 
+        @SuppressWarnings("deprecation")
         public PhoneNumberField(String label) {
             setLabel(label);
             countryCode.setWidth("120px");
